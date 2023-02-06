@@ -2,6 +2,7 @@ package exercise;
 
 import java.util.Arrays;
 import java.util.ArrayList;
+import java.util.List;
 
 // BEGIN
 public class App {
@@ -12,8 +13,8 @@ public class App {
 	            return false;
 	        letters = letters.toLowerCase();
 	        word = word.toLowerCase();
-	        ArrayList<String> listLetters = new ArrayList<>();
-	        ArrayList<String> listWord = new ArrayList<>();
+	        List<String> listLetters = new ArrayList<>();
+	        List<String> listWord = new ArrayList<>();
 	        for (int i = 0; i < word.length(); i++) {
 	            listWord.add(word.substring(i, i+1));
 	        }
